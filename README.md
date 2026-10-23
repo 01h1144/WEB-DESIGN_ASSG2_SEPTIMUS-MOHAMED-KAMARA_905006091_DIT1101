@@ -46,3 +46,25 @@ The prototype uses plain HTML, CSS and JavaScript. It does not need package inst
 The contact and programme forms validate required fields in the browser and then navigate to the confirmation screen. They do not save or send submitted information. To receive real enquiries, the forms would need to be connected to an organisation-approved form service or a server-side backend. The site has no database, authentication, content-management system or mobile layout.
 
                                                                                             CREATED BY: SEPTIMUS MOHMAED KAMARA
+
+
+
+### 1. Home Page
+<img width="1868" height="1528" alt="Home Page" src="https://github.com/user-attachments/assets/9807587d-05a3-4db3-8e51-333beeb38f03" />
+
+
+### 2. About Page
+<img width="1920" height="1361" alt="About Page" src="https://github.com/user-attachments/assets/0c4ebd5a-7ab3-4a29-ae61-8720844f52f3" />
+
+### 3. Services Page
+<img width="1920" height="1358" alt="Services Page" src="https://github.com/user-attachments/assets/4dd68783-f67e-4e44-8b9b-010333eea5f5" />
+
+### 4. Contact Page
+<img width="1868" height="1131" alt="Contact Page" src="https://github.com/user-attachments/assets/7e2f9dbe-6da4-4c85-a16b-b64f2d2e1d6f" />
+
+### 5. Ask About a Programme
+<img width="1920" height="1320" alt="Ask About a Programme page" src="https://github.com/user-attachments/assets/057e01c7-7ce1-4519-94a8-fa680224ed9d" />
+
+
+
+
