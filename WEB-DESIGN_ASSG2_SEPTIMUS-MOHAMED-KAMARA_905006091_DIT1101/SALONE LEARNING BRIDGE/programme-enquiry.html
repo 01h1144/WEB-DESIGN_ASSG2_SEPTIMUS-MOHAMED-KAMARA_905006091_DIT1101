@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ask about a programme | Salone Learning Bridge</title>
+  <link rel="preconnect" href="https://upload.wikimedia.org">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Salone Learning Bridge home">
+        <img class="brand-mark" src="assets/brand-mark.svg" alt="">
+        <span class="brand-copy"><strong>Salone Learning Bridge</strong><small>LEARNING &bull; MENTORING &bull;
+            SKILLS</small></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html" aria-current="page">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="header-cta" href="programme-enquiry.html" aria-current="page">Ask about a programme</a>
+    </header>
+    <main>
+      <section class="page-heading enquiry-heading">
+        <h1>Ask about a programme</h1>
+        <p>A short enquiry helps the team point you to the right next step.</p>
+      </section>
+      <ol class="steps" aria-label="Enquiry steps">
+        <li class="step active"><span>1</span>Choose programme</li>
+        <li class="step active"><span>2</span>Your details</li>
+        <li class="step"><span>3</span>Confirmation</li>
+      </ol>
+      <section class="enquiry-layout">
+        <section class="enquiry-form-panel">
+          <h2>Your enquiry</h2>
+          <p class="required-note">Required fields are marked with an asterisk.</p>
+          <form class="enquiry-form" data-demo-form>
+            <label>Programme *<select id="programme" name="programme" required>
+                <option value="">Select a programme</option>
+                <option value="clubs">Community learning clubs</option>
+                <option value="mentoring">Girls&rsquo; mentoring circles</option>
+                <option value="digital">Practical digital skills</option>
+              </select></label>
+            <div class="form-row"><label>Your name *<input name="name" autocomplete="name"
+                  placeholder="First name or preferred name" required></label><label>How can we reply? *<select
+                  name="reply-method" required>
+                  <option value="">Phone / WhatsApp / email</option>
+                  <option>Phone</option>
+                  <option>WhatsApp</option>
+                  <option>Email</option>
+                </select></label></div>
+            <label>Your question (optional)<textarea name="question"
+                placeholder="Tell us what you need to know"></textarea></label>
+            <label class="consent-row"><input type="checkbox" required><span>I agree to be contacted about this
+                enquiry.<br><small>Please don&rsquo;t include sensitive personal information.</small></span></label>
+            <button class="button button-dark" type="submit">Send enquiry</button>
+          </form>
+        </section>
+        <aside class="enquiry-aside">
+          <h2>How we can help</h2>
+          <p>Ask us about:</p>
+          <ul>
+            <li>programme activities and learning goals</li>
+            <li>who each programme is designed for</li>
+            <li>joining a learning or mentoring activity</li>
+            <li>accessibility and support needs</li>
+          </ul>
+          <div class="alternate-route">
+            <h3>Have a general question?</h3>
+            <p><a href="contact.html">Contact our team</a> and tell us what you need.</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-brand"><strong>Salone Learning Bridge</strong><span>Sierra Leone &nbsp;&bull;&nbsp; <a
+            href="contact.html">Contact</a> &nbsp;&bull;&nbsp; <a
+            href="contact.html#safeguarding">Safeguarding</a></span></div>
+    </footer>
+  </div>
+</body>
+
+</html>
